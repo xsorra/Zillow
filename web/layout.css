@@ -1,0 +1,196 @@
+html    {overflow-y:scroll;}
+body    {margin:0; padding:0; font-size:13px; font-family: Trebuchet MS; 
+         color:#303030; background-color:#ffffff;}
+
+h1      {font-size: 45px; margin: 5px; padding: 5px}
+h2      {font-size: 35px; margin-top: 5px}
+h3      {font-size: 30px}
+h4      {font-size: 20px; font-weight: bold}
+h5      {font-weight: normal;}
+h6	{font-size: 15px; font-family:Georgia; color:#303030}
+
+img	{display:block; margin:0; padding:0; border:none;}
+
+img_right {margin-left:0px;padding: 0px;
+	   float: right; width:250px; height:200px; border: 1px solid #E0E0E0}
+
+a	{outline: none; text-decoration: none; color: #999999; font-size: 10pt;}
+
+.fl_left{float:left;}
+.fl_right{float: right; text-align: right;}
+
+.justify{text-align:justify;}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+.clear{clear:both;}
+br.clear{clear:both; margin-top:-15px;}
+
+
+/* ----------------------------------------------Wrapper------------------------------------- */
+
+div.wrapper{display:block; margin:0 0 1px 0; text-align:left;}
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6
+{margin: 0 0 10px 0; padding: 0; font-weight: normal; line-height: normal;}
+
+/* ----------------------------------------------Center------------------------------------- */
+
+#header, #topbar, #topnav, #footer, #name, .container
+{display:block; position:relative; width:960px; margin:0 auto;}
+
+/* ----------------------------------------------Header------------------------------------- */
+
+#header{text-align: center; text-transform: uppercase; margin-top: 15px;}
+#header h1, #header p{margin:0; padding:0; list-style:none; line-height:normal;}
+#header h1 a{font-size: medium; color: #292929; background-color: #ffffff;}
+#header p{margin-top: -20px; font-size: 15px; color: #4A4A4A; background-color: #ffffff;}
+
+
+.hd_left{display:block; position:relative; padding: 5px 0; width:100%}
+
+.hd_left img{display: block; float: left; width: 500px; height: auto;
+	margin-top: 7px; margin-right: 0; margin-left: 0; margin-bottom: 0; line-height: 1.6em;}
+	
+.hd_right{display:block; float:right; width:390px; height: auto; padding: 5px;
+	 text-align: right;}
+
+.hd_right img{display: block; float: right; width: 150px; height: auto;
+	margin-top: 95px; margin-right: 0; margin-left: 0; margin-bottom: 0; line-height: 1.6em;}
+
+/* ----------------------------------------------Topbar------------------------------------- */
+
+#topbar{padding:15px 0; border-bottom:1px solid #999999;}
+#topbar .fl_left{margin:8px 0 0 0; padding:0;}
+#topbar .fl_left, #topbar .fl_left a{color:#999999; background-color:#ffffff;}
+
+/* ----------------------------------------------Navigation------------------------------------- */
+
+#navi{text-align: center; padding:10px 0; border-top:5px solid #999999;}
+#navi ul{margin:0; padding:0; list-style:none;}
+#navi ul li{display:inline;}
+#navi ul li.current a{text-decoration:underline;}
+#navi right{padding:20px; border-top: 10px; float:right; width:600px}
+
+/* ----------------------------------------------Content------------------------------------- */
+
+.container{padding:30px 0; border-top:1px solid #999999; border-bottom:1px solid #999999;}
+.whitebox{font-size: 11pt; padding:30px; color:#303030; background-color:#f6f6f6;}
+.whitebox a{color:#303030; background-color:#FFFFFF;}
+.content{display:block; float:left; width:600px;}
+
+#topnav{z-index:1000; font-size:12px; text-align:center; text-transform:uppercase; border-top:1px solid #999999; border-bottom:1px solid #999999;}
+
+.nav, .nav *{margin:0; padding:0; list-style:none;}
+.nav ul{position:absolute; top:-999em; width:10em;}
+.nav li{position:relative; display:inline-block; *display:inline;}
+.nav a{display:block; position:relative; padding:15px 25px; text-decoration:none; background-color:#ffffff;}
+
+/* ----------------------------------------------Portfolio---------------------------------- */
+
+.portfolio{display:block; position:relative; margin:0 auto 1px; padding:10px 0; width:100%; border-top:1px solid #999999; border-bottom:1px solid #999999;}
+.portfolio .readmore{display:block; text-align:right;}
+.portfolio .fl_left{
+	display: block;
+	float: left;
+	width: 850px;
+	margin-top: 7px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	line-height: 1.6em;
+}
+.portfolio .fl_right{display:block; float:right; width:390px;}
+.portfolio .fl_right img{
+	display: block;
+	width: 360px;
+	height: auto;
+	padding: 5px;
+	border: 10px solid #E0E0E0;
+	margin-top: 25px;
+}
+
+/* ----------------------------------------------Table-------------------------------------- */
+table{width:500px; border-collapse:collapse; table-layout:auto; vertical-align:top; margin-bottom:15px; border:1px solid #CCCCCC;}
+table th{color:#FFFFFF; background-color:#666666; border:1px solid #CCCCCC; border-collapse:collapse; text-align:center; table-layout:auto; vertical-align:middle;}
+table td{background-color:#F2F2F2; vertical-align:top; border-collapse:collapse; border-left:1px solid #CCCCCC; border-right:1px solid #CCCCCC;}
+table th, table tbody td{padding:5px; border-collapse:collapse;}
+table tr.light{color:#666666; background-color:#F7F7F7;}
+table tr.dark{color:#666666; background-color:#E8E8E8;}
+
+/* ----------------------------------------------Footer------------------------------------- */
+
+#footer{padding:20px 0; border-top:1px solid #999999; border-bottom:1px solid #999999;}
+#footer a{color:#787878; background-color:#E0E0E0;}
+#footer h2, #footer p, #footer ul, #footer a{margin:0; padding:0; font-weight:normal; list-style:none; line-height:normal;}
+#footer h2{color:#999999; background-color:#E0E0E0; font-size:16px; font-weight:normal; margin-bottom:10px; padding-bottom:6px; border-bottom:1px dotted #585858;}
+#footer .footbox{display:block; float:left; width:220px; margin:0 0 0 50px; padding:0;}
+#footer .footbox li{margin:22px 0 0 0;}
+#footer div.last, #footer .latestgallery li.last{margin-right:0;}
+#footer .footbox li.last{margin-bottom:0;}
+
+/* ----------------------------------------------Name------------------------------------- */
+
+#name{padding: 15px 0; font-size: 14px; border-top: 1px solid #999999; margin-bottom: 15px;}
+#name a{color:#787878; background-color:#E0E0E0;}
+#name p{margin:0; padding:0;}
+
+
+/* ----------------------------------------------Button----------------------------------- */
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+	background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+	background-color:#ffffff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Trebuchet MS;
+	font-size:12px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* ----------------------------------------------Map----------------------------------- */
+div#map_container{
+	margin-left:0px;padding: 0px; float: right; width:350px; height:300px; border: 2px solid #E0E0E0
+}
+#floating-panel {
+  position: absolute;
+  top: 10px;
+  left: 25%;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>CST3619 - Search Property</title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    
+    <script type="text/javascript">
+        function IsEmpty()
+            {
+                var addressOK = false;
+                var formOK = false;
+                
+                var inputAddress = document.getElementById("streetInput").value;
+                
+                //Street field cannot be blank
+                if(inputAddress != "")
+                {
+                    blankField = false;
+                    addressOK = true;
+                }
+              
+                formOK = (addressOK);
+                
+                if (formOK == true) 
+                    return true;
+                
+                else
+                {
+                    alert("The address field cannot be blank, please enter address.");
+                    return false;
+                }
+            }
+    </script>
+    
+    <link rel="stylesheet" href="layout.css" type="text/css"/>
+  </head>
+    
+    <body id="top">
+
+        <div class="wrapper">
+            <div id="header"> 
+
+                <div class="hd_left">
+                    
+                    <img src="image/house.png"/>
+                    
+                </div></div></div>
+        
+        <div class="wrapper">
+                <br class="clear"/>
+            
+        </div>
+        
+        <div class="wrapper">
+            <div class="container">
+                
+                <div class="whitebox"> 
+                    
+                    <div class="table">
+        
+          <table border="1" width="50%">
+            <tr>
+                <td width="100%">
+                    <form method="POST" name="myForm" action="property.jsp" onsubmit="return IsEmpty()">
+                        
+                        <h3 align="center">ENTER ADDRESS</h3>
+                        
+                        <table border="1" width="100%">
+                            <tr>
+                                <td width="50%"><b>Street</b></td>
+                                <td width="50%"><input type="text" id="streetInput" name="street" size="50"/></td>
+                            </tr>
+                            
+                            <tr>
+                                <td width="50%"><b>City/State/Zip</b></td>
+                                <td width="50%"><input type="text" name="citystatezip" size="50"/></td>
+                            </tr>
+             
+                            
+                        </table>
+                        
+                        <div>
+                            <p>
+                                <input type="submit" value="Submit" name="submit" class="myButton"/>
+                                <input type="reset" value="Reset" name="reset" class="myButton"/>
+                                
+                                <img src="image/zillow.png" align="right" width="20%"/>
+                            </p>
+                        </div>
+                        
+                    </form>
+                </td>
+            </tr>
+          </table>          
+                        
+                    <div class="fl_left">
+                        <h4>Sample Address</h4>
+                                <p><b>Brooklyn: </b>1508 E55th St, Brooklyn, NY 11234</p>
+                                <p><b>Manhattan: </b>39 E72nd St, New York, NY 10021</p>
+                    </div>
+                    
+                        
+                    <div class="fl_right">
+                    <p></p>
+                    </div>
+
+                    <div class="clear"></div></div></div><br/><br/>
+
+            <div class="navi"/>
+            <div class="clear"/></div></div>
+                
+                <div class="footer">
+                    <div id="name">
+                        <p class="fl_left">Professor Marcos Pinto</p>
+                        <p class="fl_right">Student Name: Sora Lee</p>
+                        
+            <br class="clear"/></div></div>
+  
+</body>
+</html>
